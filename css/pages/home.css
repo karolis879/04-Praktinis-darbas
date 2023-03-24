@@ -1,0 +1,92 @@
+@import '../base/base.css';
+@import '../pages/home.css';
+@import '../base/layout.css';
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:regular,italic,600,600italic,700,700italic);
+
+
+.header .logo {
+    width: 70px;
+    height: 48.31px;
+}
+
+.logo-text {
+    display: flex;
+}
+
+.logo-main-text {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.main-nav {
+    gap: 30px;
+    display: flex;
+}
+
+.nav {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+
+}
+
+.hero-middle {
+    display: flex;
+}
+
+.left-column {
+    width: 416px;
+}
+
+.main-img {
+    height: 378.13018798828125px;
+    width: 644.2794189453125px;
+    left: 536px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.left-column > .main-text {
+    font-size: 40px;
+    font-family: Crimson Text, sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.left-column > .text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.left-column > .btn {
+    margin-top: 23px    ;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0.1em solid #fff;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 5px;
+    padding-left: 47.5px;
+    padding-right: 48.5px;
+    padding-bottom: 10px;
+    padding-top: 13px;
+}
+
