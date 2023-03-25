@@ -1,14 +1,18 @@
-.container {
+.hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1440px;
     height: 586px;
 }
 
-.container  .row {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.hero-container  .row {
     width: 1175px;
-    background-color: aqua;
     display: flex;
     margin-top: 35.84px;
     justify-content: space-between;
@@ -29,6 +33,44 @@
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 5px;
-    text-align: left;
     text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.partners {
+    margin-top: 60px;
+}
+
+.partners-images {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 68px;
+}
+
+.btn-center {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.main-btns {    
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: 0.1em solid #212529;
+    background-color: #212529;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 29.5px;
+    padding-right: 29.5px;
 }
