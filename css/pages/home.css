@@ -42,9 +42,7 @@
 .hamburger {
     color: white;
     padding: 5px;
-    text-decoration: none;
     font-size: 20px;
-    display: block;
 }
 
 .hamburger-color {
