@@ -78,6 +78,24 @@
     padding-right: 29.5px;
 }
 
+@media (max-width:1200px) {
+    body > .hero-container > .header-row {
+        width: 90%;
+    }
+    body > .hero-container > .row {
+        width: 90%;
+    }
+
+    .row > .main-img {
+        width:65%
+    }
+
+    .partners-images {
+        flex-wrap: wrap;
+    }
+}
+
+
 @media (max-width: 600px) {
 
     .partners {
