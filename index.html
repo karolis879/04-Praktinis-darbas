@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="./css/pages/home.css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:regular,italic,600,600italic,700,700italic" rel="stylesheet" />
     <title>Praktinis_darbas</title>
 </head>
 <body>
-    <main>
-        <hero class="hero-container bg-color">
-            <header class="row">
+    <hero class="hero-container bg-color">
+            <header class="header-row">
                 <img class="logo" src="./img/logo.svg" alt="logotipas">               
                 <nav class="main-nav">
                     <a class="nav" href="">Home</a>
@@ -20,8 +18,13 @@
                     <a class="nav" href="">Services</a>
                     <a class="nav" href="">Contact</a>
                 </nav>
+                <div class="hamburger">
+                    <a class="hamburger-color" href="./">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
             </header>
-            <div class="hero-middle row">
+            <div class="row">
                 <div class="left-column">
                     <p class="before-text" >welcome</p>
                     <h1 class="main-text">Lorem ipsum dolor sit amet consectetur</h1>
@@ -30,27 +33,26 @@
                 </div>
                 <img class="main-img" src="./img/Group.svg" alt="family">
             </div>
-        </hero>
-        <section class="container">
+    </hero>
+    <section class="container">
             <div class="partners">
                 <div class="container">
-                    <p class="before-text">partners</p>
+                    <p class="partners-beforetext">partners</p>
                     <h2 class="main-text">Lorem Ipsum Dolor</h2>
-                    <p class="text">Lorem ipsum, dolor sit amet consectetur
+                    <p class="partners-text">Lorem ipsum, dolor sit amet consectetur
                         adipisicing elit.</p>
                 </div>
                 <div class="partners-images">
-                    <img src="./img/google.svg" alt="">
-                    <img src="./img/microsoft.svg" alt="">
-                    <img src="./img/airbnb.svg" alt="">
-                    <img src="./img/facebook.svg" alt="">
-                    <img src="./img/spotify.svg" alt="">
+                    <img class="images" src="./img/google.svg" alt="">
+                    <img class="images" src="./img/microsoft.svg" alt="">
+                    <img class="images" src="./img/airbnb.svg" alt="">
+                    <img class="images" src="./img/facebook.svg" alt="">
+                    <img class="images" src="./img/spotify.svg" alt="">
                 </div>
                 <div class="btn-center">
                     <a class="main-btns" href="">Learn more</a>
                 </div>
             </div>
-        </section>
-    </main>
+    </section>
 </body>
 </html>

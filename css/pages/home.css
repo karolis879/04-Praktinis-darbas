@@ -3,14 +3,16 @@
 @import '../base/layout.css';
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:regular,italic,600,600italic,700,700italic);
+@import '../../3rd-party/font-awesome.min.css';
+@import '../../components/header.css';
 
-
-.header .logo {
+.logo {
     height: 50px;
     width: 187.00013732910156px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
+
 }
 
 .logo-text {
@@ -33,6 +35,26 @@
 
 }
 
+.nav:hover {
+    text-decoration: underline;
+}
+
+.hamburger {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.hamburger-color {
+    color:#fff
+}
+
+.hamburger:hover {
+    background-color: #74C69D;
+}
+
 .hero-middle {
     display: flex;
 }
@@ -46,11 +68,8 @@
 }
 
 .main-img {
-    height: 378.13018798828125px;
-    width: 644.2794189453125px;
-    left: 536px;
-    top: 0px;
-    border-radius: 0px;
+    width: 644px;
+    height: 378px;
 }
 
 .main-text {
@@ -61,6 +80,7 @@
     letter-spacing: 0px;
     text-align: left;
     padding-bottom: 15px;
+    color: #fff;
 }
 
 .left-column > .text {
@@ -69,7 +89,7 @@
     line-height: 19px;
     letter-spacing: 0px;
     text-align: left;
-
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .left-column > .btn {
@@ -89,3 +109,20 @@
     padding-top: 13px;
 }
 
+@media (max-width: 600px) {
+    .main-text {
+    font-family: Crimson Text;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    }
+}
+
+@media (min-width: 1100px) {
+    .hamburger {
+    display:none;
+    }
+}
