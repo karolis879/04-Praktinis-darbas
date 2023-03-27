@@ -182,5 +182,8 @@
   .team-text {
     margin-top: 40.13px;
   }
+  .middle-img {
+    margin: auto;
+    width: 335px;
+  }
 }
-
