@@ -24,6 +24,7 @@
 .socials {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .copyright-text {
@@ -31,4 +32,11 @@
     font-weight: 400;
     line-height: 25px;
     color: #ffff;
+}
+
+.tiktok {
+    height: 18px;
+    width: 15.403264045715332px;
+    fill: #ffff;
+    cursor: pointer;
 }
