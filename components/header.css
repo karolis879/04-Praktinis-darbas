@@ -11,8 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;  
-    padding-top: 1em;
-    padding-bottom: 1em;  
+    padding-top: 35px;
+    padding-bottom: 40px;  
 }
 
 @media (max-width: 700px) {
@@ -25,6 +25,8 @@
     body > .header-container > .header-row {
         flex-direction: row;
         width: 335px;
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 
     .nav {
