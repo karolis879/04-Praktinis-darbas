@@ -1,12 +1,12 @@
-.hero-container {
+.header-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 586px;
+    width: 100%;
 }
 
 .container {
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -97,10 +97,10 @@
 }
 
 @media (max-width:1200px) {
-    body > .hero-container > .header-row {
+    body > .header-container > .header-row {
         width: 90%;
     }
-    body > .hero-container > .row {
+    body > .header-container > .row {
         width: 90%;
     }
 
@@ -136,5 +136,13 @@
     left: 5px;
     top: 261.728759765625px;
     border-radius: 0px;
+  }
+
+  .header-container {
+    padding-bottom: 0;
+  }
+  
+  body .left-column .btn {
+    margin-bottom: 40px;
   }
 }

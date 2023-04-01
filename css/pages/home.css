@@ -5,6 +5,7 @@
 @import '../../3rd-party/font-awesome.min.css';
 @import '../../components/header.css';
 @import '../../components/main.css';
+@import '../pages/services.css';
 @import '../../components/footer.css';
 
 .logo {
