@@ -14,10 +14,12 @@
 
 .services-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 1175px;
     margin-top: 78px;
-    padding-bottom: 135px;
+    padding-bottom: 135px; 
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .services-container  .rectangle-text {
@@ -86,10 +88,9 @@
 
 @media (max-width: 1200px) {
    .container .services-container {
-        flex-direction: column;
         align-items: center;
         gap: 50px;
         padding-bottom: 20px;
         width: 100%;
-    }
+    }   
 }
